@@ -1,0 +1,29 @@
+.banner{
+    position: relative;
+    opacity: 1;
+    &:hover{
+        opacity: .8;
+        cursor: pointer;
+    }
+    img{
+        border-radius: 20px 100px;
+    }
+}
+.banner__logo{
+    position: absolute;
+    left:0;
+    top: 50%;
+   img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+   }
+   p{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+   }
+}

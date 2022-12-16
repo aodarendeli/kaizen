@@ -1,0 +1,13 @@
+.footer{
+    background-color: #fff;
+    border-radius:30px 10px;
+    border-top:2px solid #ECEEEF;
+    box-shadow: 0 1x 2px 0 #6a747e;
+    .tab-svg{
+        opacity: 1;
+        &:hover{
+            opacity: .7;
+            cursor: pointer;
+        }
+    }
+}

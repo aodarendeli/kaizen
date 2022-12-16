@@ -1,0 +1,27 @@
+.turn__back{
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    padding: 15px;
+    border-radius: 50%;
+    opacity: 1;
+    &:hover{
+        opacity: .9;
+        cursor: pointer;
+    }
+}
+.join__button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    position: sticky;
+    border-color: transparent;
+    width: 100%;
+    bottom: 5%;
+    opacity: 1;
+
+    &:hover{
+        opacity: .9;
+    }
+}
